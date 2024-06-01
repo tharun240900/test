@@ -1,0 +1,14 @@
+
+server:
+  port: 8099
+
+spring:
+  datasource:
+    username: admin
+    password: tharun1920
+    url: jdbc:mysql://codippa.c7ysyeguwves.eu-north-1.rds.amazonaws.com:3306/mydata
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
